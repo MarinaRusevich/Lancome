@@ -1,0 +1,117 @@
+/* body, header, nav, main, .wrap1, .wrap2, .inner1, .inner2, footer {border: 1px solid teal;} */
+
+
+
+body{
+    width: 1000px;
+    height: 1960px;
+    margin: auto;
+    font-family: "Arial";
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+header{
+   width: 900px; 
+   height: 250px;
+   margin-top: 50px;
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+nav {
+    width: 900px;
+    height: 80px;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+main {
+    width: 900px;
+    height: 1140px; 
+}
+.wrap1 {
+    width: 900px;
+    height: 720px; 
+    display: flex;
+}
+.wrap2 {
+    width: 900px;
+    height: 420px; 
+    display: flex;
+}
+.inner1 {
+    width: 450px;
+    height: 720px;
+    text-align: center; 
+}
+.inner2 {
+    width: 450px;
+    height: 420px;
+
+}
+h1 {
+    font-size: 34px;
+    color: rgb(115, 27, 123);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.inner1 img:nth-child(2){
+    margin-bottom: 30px;
+}
+  p{
+    font-size: 20px;
+    color: rgb(45, 10, 48);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: justify;
+    padding: 0 20px;
+  }
+  .inner1 p{
+    margin-top: 40px;
+      }
+      input, textarea {
+        background-color: rgb(247, 179, 240);
+        
+        width: 400px;
+        height: 49px;
+        border: 0;
+        margin-top: 10px;
+      }
+      .inner2 p:nth-child(1) {
+        margin-top: 60px;
+      }
+      textarea {
+        height: 173px;
+      }
+      input[type="submit"] {
+        width: 150px;
+        height: 40px;
+        border-width: 1px;
+        border-color: rgb(111, 111, 111);
+        border-style: solid;
+        font-family: "Arial";
+        font-size: 20px;
+        transform: translate(255px, -20px);
+      }
+      footer{
+        width: 900px;
+        height: 390px;
+        text-align: center;
+      }
+      footer div{
+        /* border: 1px solid teal; */
+        width: 850px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
